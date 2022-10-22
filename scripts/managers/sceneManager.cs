@@ -123,12 +123,6 @@ public class sceneManager : MonoBehaviour
     {
         PlayerController.gameOver = false;
         _pauseBar.SetActive(false);
-        StartCoroutine(resume());
-    }
-
-    IEnumerator resume()
-    {
-        yield return new WaitForSeconds(0.1f);
         PlayerController.pause = false;
     }
     #endregion

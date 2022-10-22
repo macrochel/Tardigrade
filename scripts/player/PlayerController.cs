@@ -51,13 +51,10 @@ public class PlayerController : MonoBehaviour
             Move();
             _rbody.velocity = new Vector2(_rbody.velocity.x, _verticalInput);
         }
-        else if (gameOver)
+        else if (gameOver && _scene == 1)
         {
             _rbody.velocity = new Vector2(0, 0);
-            if (_scene == 1)
-            {
-                StartCoroutine(nextScene());
-            }
+            StartCoroutine(nextScene());
         }
         
     }
