@@ -1,6 +1,4 @@
 # tardigrade
-LINK TO PRESENTATION
-https://docs.google.com/presentation/d/1FNrdB-3qVckU9kAvGtjINKMDZmqJMoSp/edit?usp=sharing&ouid=116725687281667071918&rtpof=true&sd=true
 
 
 
